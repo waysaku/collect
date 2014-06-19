@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8965E9F71952740D00E772EC"
-               BuildableName = "collect.app"
-               BlueprintName = "collect"
+               BlueprintIdentifier = "8965EA36195287E200E772EC"
+               BuildableName = "collect-RELEASE.app"
+               BlueprintName = "collect-RELEASE"
                ReferencedContainer = "container:collect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,43 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8965EA1B1952740D00E772EC"
-               BuildableName = "collectTests.xctest"
-               BlueprintName = "collectTests"
-               ReferencedContainer = "container:collect.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8965EA58195287E200E772EC"
-               BuildableName = "collect-RELEASETests.xctest"
-               BlueprintName = "collect-RELEASETests"
-               ReferencedContainer = "container:collect.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8965EA92195287F700E772EC"
-               BuildableName = "collect-DEVTests.xctest"
-               BlueprintName = "collect-DEVTests"
-               ReferencedContainer = "container:collect.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8965E9F71952740D00E772EC"
-            BuildableName = "collect.app"
-            BlueprintName = "collect"
+            BlueprintIdentifier = "8965EA36195287E200E772EC"
+            BuildableName = "collect-RELEASE.app"
+            BlueprintName = "collect-RELEASE"
             ReferencedContainer = "container:collect.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -81,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8965E9F71952740D00E772EC"
-            BuildableName = "collect.app"
-            BlueprintName = "collect"
+            BlueprintIdentifier = "8965EA36195287E200E772EC"
+            BuildableName = "collect-RELEASE.app"
+            BlueprintName = "collect-RELEASE"
             ReferencedContainer = "container:collect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -99,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8965E9F71952740D00E772EC"
-            BuildableName = "collect.app"
-            BlueprintName = "collect"
+            BlueprintIdentifier = "8965EA36195287E200E772EC"
+            BuildableName = "collect-RELEASE.app"
+            BlueprintName = "collect-RELEASE"
             ReferencedContainer = "container:collect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -55,6 +55,38 @@
 		8965EA251952740D00E772EC /* collectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collectTests-Info.plist"; sourceTree = "<group>"; };
 		8965EA271952740D00E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8965EA291952740D00E772EC /* collectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectTests.m; sourceTree = "<group>"; };
+		8965EA3D195287E200E772EC /* collect-RELEASE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collect-RELEASE-Info.plist"; sourceTree = "<group>"; };
+		8965EA3F195287E200E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8965EA41195287E200E772EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8965EA43195287E200E772EC /* collect-RELEASE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "collect-RELEASE-Prefix.pch"; sourceTree = "<group>"; };
+		8965EA44195287E200E772EC /* collectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectAppDelegate.h; sourceTree = "<group>"; };
+		8965EA45195287E200E772EC /* collectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectAppDelegate.m; sourceTree = "<group>"; };
+		8965EA48195287E200E772EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8965EA4B195287E200E772EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8965EA4D195287E200E772EC /* collectMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectMasterViewController.h; sourceTree = "<group>"; };
+		8965EA4E195287E200E772EC /* collectMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectMasterViewController.m; sourceTree = "<group>"; };
+		8965EA50195287E200E772EC /* collectDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectDetailViewController.h; sourceTree = "<group>"; };
+		8965EA51195287E200E772EC /* collectDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectDetailViewController.m; sourceTree = "<group>"; };
+		8965EA53195287E200E772EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8965EA61195287E200E772EC /* collect-RELEASETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collect-RELEASETests-Info.plist"; sourceTree = "<group>"; };
+		8965EA63195287E200E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8965EA65195287E200E772EC /* collect_RELEASETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collect_RELEASETests.m; sourceTree = "<group>"; };
+		8965EA77195287F600E772EC /* collect-DEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collect-DEV-Info.plist"; sourceTree = "<group>"; };
+		8965EA79195287F600E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8965EA7B195287F600E772EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8965EA7D195287F600E772EC /* collect-DEV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "collect-DEV-Prefix.pch"; sourceTree = "<group>"; };
+		8965EA7E195287F600E772EC /* collectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectAppDelegate.h; sourceTree = "<group>"; };
+		8965EA7F195287F600E772EC /* collectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectAppDelegate.m; sourceTree = "<group>"; };
+		8965EA82195287F600E772EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8965EA85195287F600E772EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8965EA87195287F600E772EC /* collectMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectMasterViewController.h; sourceTree = "<group>"; };
+		8965EA88195287F600E772EC /* collectMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectMasterViewController.m; sourceTree = "<group>"; };
+		8965EA8A195287F600E772EC /* collectDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectDetailViewController.h; sourceTree = "<group>"; };
+		8965EA8B195287F600E772EC /* collectDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectDetailViewController.m; sourceTree = "<group>"; };
+		8965EA8D195287F600E772EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8965EA9B195287F700E772EC /* collect-DEVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collect-DEVTests-Info.plist"; sourceTree = "<group>"; };
+		8965EA9D195287F700E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8965EA9F195287F700E772EC /* collect_DEVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collect_DEVTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +118,10 @@
 			children = (
 				8965EA011952740D00E772EC /* collect */,
 				8965EA231952740D00E772EC /* collectTests */,
+				8965EA3B195287E200E772EC /* collect-RELEASE */,
+				8965EA5F195287E200E772EC /* collect-RELEASETests */,
+				8965EA75195287F600E772EC /* collect-DEV */,
+				8965EA99195287F700E772EC /* collect-DEVTests */,
 				8965E9FA1952740D00E772EC /* Frameworks */,
 				8965E9F91952740D00E772EC /* Products */,
 			);
@@ -151,6 +187,98 @@
 			children = (
 				8965EA251952740D00E772EC /* collectTests-Info.plist */,
 				8965EA261952740D00E772EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8965EA3B195287E200E772EC /* collect-RELEASE */ = {
+			isa = PBXGroup;
+			children = (
+				8965EA44195287E200E772EC /* collectAppDelegate.h */,
+				8965EA45195287E200E772EC /* collectAppDelegate.m */,
+				8965EA47195287E200E772EC /* Main_iPhone.storyboard */,
+				8965EA4A195287E200E772EC /* Main_iPad.storyboard */,
+				8965EA4D195287E200E772EC /* collectMasterViewController.h */,
+				8965EA4E195287E200E772EC /* collectMasterViewController.m */,
+				8965EA50195287E200E772EC /* collectDetailViewController.h */,
+				8965EA51195287E200E772EC /* collectDetailViewController.m */,
+				8965EA53195287E200E772EC /* Images.xcassets */,
+				8965EA3C195287E200E772EC /* Supporting Files */,
+			);
+			path = "collect-RELEASE";
+			sourceTree = "<group>";
+		};
+		8965EA3C195287E200E772EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8965EA3D195287E200E772EC /* collect-RELEASE-Info.plist */,
+				8965EA3E195287E200E772EC /* InfoPlist.strings */,
+				8965EA41195287E200E772EC /* main.m */,
+				8965EA43195287E200E772EC /* collect-RELEASE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8965EA5F195287E200E772EC /* collect-RELEASETests */ = {
+			isa = PBXGroup;
+			children = (
+				8965EA65195287E200E772EC /* collect_RELEASETests.m */,
+				8965EA60195287E200E772EC /* Supporting Files */,
+			);
+			path = "collect-RELEASETests";
+			sourceTree = "<group>";
+		};
+		8965EA60195287E200E772EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8965EA61195287E200E772EC /* collect-RELEASETests-Info.plist */,
+				8965EA62195287E200E772EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8965EA75195287F600E772EC /* collect-DEV */ = {
+			isa = PBXGroup;
+			children = (
+				8965EA7E195287F600E772EC /* collectAppDelegate.h */,
+				8965EA7F195287F600E772EC /* collectAppDelegate.m */,
+				8965EA81195287F600E772EC /* Main_iPhone.storyboard */,
+				8965EA84195287F600E772EC /* Main_iPad.storyboard */,
+				8965EA87195287F600E772EC /* collectMasterViewController.h */,
+				8965EA88195287F600E772EC /* collectMasterViewController.m */,
+				8965EA8A195287F600E772EC /* collectDetailViewController.h */,
+				8965EA8B195287F600E772EC /* collectDetailViewController.m */,
+				8965EA8D195287F600E772EC /* Images.xcassets */,
+				8965EA76195287F600E772EC /* Supporting Files */,
+			);
+			path = "collect-DEV";
+			sourceTree = "<group>";
+		};
+		8965EA76195287F600E772EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8965EA77195287F600E772EC /* collect-DEV-Info.plist */,
+				8965EA78195287F600E772EC /* InfoPlist.strings */,
+				8965EA7B195287F600E772EC /* main.m */,
+				8965EA7D195287F600E772EC /* collect-DEV-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8965EA99195287F700E772EC /* collect-DEVTests */ = {
+			isa = PBXGroup;
+			children = (
+				8965EA9F195287F700E772EC /* collect_DEVTests.m */,
+				8965EA9A195287F700E772EC /* Supporting Files */,
+			);
+			path = "collect-DEVTests";
+			sourceTree = "<group>";
+		};
+		8965EA9A195287F700E772EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8965EA9B195287F700E772EC /* collect-DEVTests-Info.plist */,
+				8965EA9C195287F700E772EC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -311,6 +439,70 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		8965EA3E195287E200E772EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8965EA3F195287E200E772EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8965EA47195287E200E772EC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8965EA48195287E200E772EC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8965EA4A195287E200E772EC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8965EA4B195287E200E772EC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8965EA62195287E200E772EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8965EA63195287E200E772EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8965EA78195287F600E772EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8965EA79195287F600E772EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8965EA81195287F600E772EC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8965EA82195287F600E772EC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8965EA84195287F600E772EC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8965EA85195287F600E772EC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8965EA9C195287F700E772EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8965EA9D195287F700E772EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -395,6 +587,7 @@
 				GCC_PREFIX_HEADER = "collect/collect-Prefix.pch";
 				INFOPLIST_FILE = "collect/collect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,6 +601,7 @@
 				GCC_PREFIX_HEADER = "collect/collect-Prefix.pch";
 				INFOPLIST_FILE = "collect/collect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

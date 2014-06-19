@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>collect-DEV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>collect-RELEASE.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>collect.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>8965EA1B1952740D00E772EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8965EA36195287E200E772EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8965EA58195287E200E772EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8965EA70195287F600E772EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8965EA92195287F700E772EC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
