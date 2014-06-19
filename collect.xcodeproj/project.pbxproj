@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89147A321952E7E60079AF0E /* HogeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89147A311952E7E60079AF0E /* HogeViewController.m */; };
 		8965E9FC1952740D00E772EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FB1952740D00E772EC /* Foundation.framework */; };
 		8965E9FE1952740D00E772EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FD1952740D00E772EC /* CoreGraphics.framework */; };
 		8965EA001952740D00E772EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FF1952740D00E772EC /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 		8965EA201952740D00E772EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FF1952740D00E772EC /* UIKit.framework */; };
 		8965EA281952740D00E772EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8965EA261952740D00E772EC /* InfoPlist.strings */; };
 		8965EA2A1952740E00E772EC /* collectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8965EA291952740D00E772EC /* collectTests.m */; };
+		D37C0E66DFFD4189808D7C05 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F44E7EF533D143058C9A42D5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		813B1C3310A64722BB317958 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		89147A301952E7E60079AF0E /* HogeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HogeViewController.h; sourceTree = "<group>"; };
+		89147A311952E7E60079AF0E /* HogeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HogeViewController.m; sourceTree = "<group>"; };
 		8965E9F81952740D00E772EC /* collect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8965E9FB1952740D00E772EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8965E9FD1952740D00E772EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,38 +60,7 @@
 		8965EA251952740D00E772EC /* collectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collectTests-Info.plist"; sourceTree = "<group>"; };
 		8965EA271952740D00E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8965EA291952740D00E772EC /* collectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectTests.m; sourceTree = "<group>"; };
-		8965EA3D195287E200E772EC /* collect-RELEASE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collect-RELEASE-Info.plist"; sourceTree = "<group>"; };
-		8965EA3F195287E200E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8965EA41195287E200E772EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8965EA43195287E200E772EC /* collect-RELEASE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "collect-RELEASE-Prefix.pch"; sourceTree = "<group>"; };
-		8965EA44195287E200E772EC /* collectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectAppDelegate.h; sourceTree = "<group>"; };
-		8965EA45195287E200E772EC /* collectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectAppDelegate.m; sourceTree = "<group>"; };
-		8965EA48195287E200E772EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		8965EA4B195287E200E772EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		8965EA4D195287E200E772EC /* collectMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectMasterViewController.h; sourceTree = "<group>"; };
-		8965EA4E195287E200E772EC /* collectMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectMasterViewController.m; sourceTree = "<group>"; };
-		8965EA50195287E200E772EC /* collectDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectDetailViewController.h; sourceTree = "<group>"; };
-		8965EA51195287E200E772EC /* collectDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectDetailViewController.m; sourceTree = "<group>"; };
-		8965EA53195287E200E772EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8965EA61195287E200E772EC /* collect-RELEASETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collect-RELEASETests-Info.plist"; sourceTree = "<group>"; };
-		8965EA63195287E200E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8965EA65195287E200E772EC /* collect_RELEASETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collect_RELEASETests.m; sourceTree = "<group>"; };
-		8965EA77195287F600E772EC /* collect-DEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collect-DEV-Info.plist"; sourceTree = "<group>"; };
-		8965EA79195287F600E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8965EA7B195287F600E772EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8965EA7D195287F600E772EC /* collect-DEV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "collect-DEV-Prefix.pch"; sourceTree = "<group>"; };
-		8965EA7E195287F600E772EC /* collectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectAppDelegate.h; sourceTree = "<group>"; };
-		8965EA7F195287F600E772EC /* collectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectAppDelegate.m; sourceTree = "<group>"; };
-		8965EA82195287F600E772EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		8965EA85195287F600E772EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		8965EA87195287F600E772EC /* collectMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectMasterViewController.h; sourceTree = "<group>"; };
-		8965EA88195287F600E772EC /* collectMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectMasterViewController.m; sourceTree = "<group>"; };
-		8965EA8A195287F600E772EC /* collectDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectDetailViewController.h; sourceTree = "<group>"; };
-		8965EA8B195287F600E772EC /* collectDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectDetailViewController.m; sourceTree = "<group>"; };
-		8965EA8D195287F600E772EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8965EA9B195287F700E772EC /* collect-DEVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collect-DEVTests-Info.plist"; sourceTree = "<group>"; };
-		8965EA9D195287F700E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8965EA9F195287F700E772EC /* collect_DEVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collect_DEVTests.m; sourceTree = "<group>"; };
+		F44E7EF533D143058C9A42D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +71,7 @@
 				8965E9FE1952740D00E772EC /* CoreGraphics.framework in Frameworks */,
 				8965EA001952740D00E772EC /* UIKit.framework in Frameworks */,
 				8965E9FC1952740D00E772EC /* Foundation.framework in Frameworks */,
+				D37C0E66DFFD4189808D7C05 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,12 +93,9 @@
 			children = (
 				8965EA011952740D00E772EC /* collect */,
 				8965EA231952740D00E772EC /* collectTests */,
-				8965EA3B195287E200E772EC /* collect-RELEASE */,
-				8965EA5F195287E200E772EC /* collect-RELEASETests */,
-				8965EA75195287F600E772EC /* collect-DEV */,
-				8965EA99195287F700E772EC /* collect-DEVTests */,
 				8965E9FA1952740D00E772EC /* Frameworks */,
 				8965E9F91952740D00E772EC /* Products */,
+				813B1C3310A64722BB317958 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +115,7 @@
 				8965E9FD1952740D00E772EC /* CoreGraphics.framework */,
 				8965E9FF1952740D00E772EC /* UIKit.framework */,
 				8965EA1D1952740D00E772EC /* XCTest.framework */,
+				F44E7EF533D143058C9A42D5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,6 +131,8 @@
 				8965EA141952740D00E772EC /* collectViewController.m */,
 				8965EA161952740D00E772EC /* Images.xcassets */,
 				8965EA021952740D00E772EC /* Supporting Files */,
+				89147A301952E7E60079AF0E /* HogeViewController.h */,
+				89147A311952E7E60079AF0E /* HogeViewController.m */,
 			);
 			path = collect;
 			sourceTree = "<group>";
@@ -191,98 +166,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8965EA3B195287E200E772EC /* collect-RELEASE */ = {
-			isa = PBXGroup;
-			children = (
-				8965EA44195287E200E772EC /* collectAppDelegate.h */,
-				8965EA45195287E200E772EC /* collectAppDelegate.m */,
-				8965EA47195287E200E772EC /* Main_iPhone.storyboard */,
-				8965EA4A195287E200E772EC /* Main_iPad.storyboard */,
-				8965EA4D195287E200E772EC /* collectMasterViewController.h */,
-				8965EA4E195287E200E772EC /* collectMasterViewController.m */,
-				8965EA50195287E200E772EC /* collectDetailViewController.h */,
-				8965EA51195287E200E772EC /* collectDetailViewController.m */,
-				8965EA53195287E200E772EC /* Images.xcassets */,
-				8965EA3C195287E200E772EC /* Supporting Files */,
-			);
-			path = "collect-RELEASE";
-			sourceTree = "<group>";
-		};
-		8965EA3C195287E200E772EC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8965EA3D195287E200E772EC /* collect-RELEASE-Info.plist */,
-				8965EA3E195287E200E772EC /* InfoPlist.strings */,
-				8965EA41195287E200E772EC /* main.m */,
-				8965EA43195287E200E772EC /* collect-RELEASE-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8965EA5F195287E200E772EC /* collect-RELEASETests */ = {
-			isa = PBXGroup;
-			children = (
-				8965EA65195287E200E772EC /* collect_RELEASETests.m */,
-				8965EA60195287E200E772EC /* Supporting Files */,
-			);
-			path = "collect-RELEASETests";
-			sourceTree = "<group>";
-		};
-		8965EA60195287E200E772EC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8965EA61195287E200E772EC /* collect-RELEASETests-Info.plist */,
-				8965EA62195287E200E772EC /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8965EA75195287F600E772EC /* collect-DEV */ = {
-			isa = PBXGroup;
-			children = (
-				8965EA7E195287F600E772EC /* collectAppDelegate.h */,
-				8965EA7F195287F600E772EC /* collectAppDelegate.m */,
-				8965EA81195287F600E772EC /* Main_iPhone.storyboard */,
-				8965EA84195287F600E772EC /* Main_iPad.storyboard */,
-				8965EA87195287F600E772EC /* collectMasterViewController.h */,
-				8965EA88195287F600E772EC /* collectMasterViewController.m */,
-				8965EA8A195287F600E772EC /* collectDetailViewController.h */,
-				8965EA8B195287F600E772EC /* collectDetailViewController.m */,
-				8965EA8D195287F600E772EC /* Images.xcassets */,
-				8965EA76195287F600E772EC /* Supporting Files */,
-			);
-			path = "collect-DEV";
-			sourceTree = "<group>";
-		};
-		8965EA76195287F600E772EC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8965EA77195287F600E772EC /* collect-DEV-Info.plist */,
-				8965EA78195287F600E772EC /* InfoPlist.strings */,
-				8965EA7B195287F600E772EC /* main.m */,
-				8965EA7D195287F600E772EC /* collect-DEV-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8965EA99195287F700E772EC /* collect-DEVTests */ = {
-			isa = PBXGroup;
-			children = (
-				8965EA9F195287F700E772EC /* collect_DEVTests.m */,
-				8965EA9A195287F700E772EC /* Supporting Files */,
-			);
-			path = "collect-DEVTests";
-			sourceTree = "<group>";
-		};
-		8965EA9A195287F700E772EC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8965EA9B195287F700E772EC /* collect-DEVTests-Info.plist */,
-				8965EA9C195287F700E772EC /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8965EA2D1952740E00E772EC /* Build configuration list for PBXNativeTarget "collect" */;
 			buildPhases = (
+				E1C6C8EF76CC4E9BA4BA3AB1 /* Check Pods Manifest.lock */,
 				8965E9F41952740D00E772EC /* Sources */,
 				8965E9F51952740D00E772EC /* Frameworks */,
 				8965E9F61952740D00E772EC /* Resources */,
+				BC1E4DCD71FD483A805D71CF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -377,12 +262,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BC1E4DCD71FD483A805D71CF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C6C8EF76CC4E9BA4BA3AB1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8965E9F41952740D00E772EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8965EA081952740D00E772EC /* main.m in Sources */,
+				89147A321952E7E60079AF0E /* HogeViewController.m in Sources */,
 				8965EA0C1952740D00E772EC /* collectAppDelegate.m in Sources */,
 				8965EA151952740D00E772EC /* collectViewController.m in Sources */,
 			);
@@ -435,70 +354,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				8965EA271952740D00E772EC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8965EA3E195287E200E772EC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8965EA3F195287E200E772EC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8965EA47195287E200E772EC /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8965EA48195287E200E772EC /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		8965EA4A195287E200E772EC /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8965EA4B195287E200E772EC /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		8965EA62195287E200E772EC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8965EA63195287E200E772EC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8965EA78195287F600E772EC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8965EA79195287F600E772EC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8965EA81195287F600E772EC /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8965EA82195287F600E772EC /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		8965EA84195287F600E772EC /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8965EA85195287F600E772EC /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		8965EA9C195287F700E772EC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8965EA9D195287F700E772EC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -580,6 +435,7 @@
 		};
 		8965EA2E1952740E00E772EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813B1C3310A64722BB317958 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -594,6 +450,7 @@
 		};
 		8965EA2F1952740E00E772EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813B1C3310A64722BB317958 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -665,6 +522,7 @@
 				8965EA2F1952740E00E772EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8965EA301952740E00E772EC /* Build configuration list for PBXNativeTarget "collectTests" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +531,7 @@
 				8965EA321952740E00E772EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
