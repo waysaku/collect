@@ -1,14 +1,12 @@
 language: objective-c
 rvm: 1.9.3
-
 before_install:
-  - gem install cocoapods -v '0.32.1'
-  - pod repo remove master
-  - pod setup
-
+- gem install cocoapods -v '0.32.1'
+- pod repo remove master
+- pod setup
 env:
   global:
-    secure: c+26kMaU9GeSA1Jppwom8YdFrNSHTKmuoelIvOVzoSoneoOSBnWXYD192O1MtczhM+AAjsCo9FBflRnHANzLXpgqfwRYu2fVfuCL5CKmA2bA53dZIM6QJxx12afIeJL5RV2k3lhpDltjkCJVkraakoAhG988bq1vPuq9AaoPGRg=
-
+  - secure: c+26kMaU9GeSA1Jppwom8YdFrNSHTKmuoelIvOVzoSoneoOSBnWXYD192O1MtczhM+AAjsCo9FBflRnHANzLXpgqfwRYu2fVfuCL5CKmA2bA53dZIM6QJxx12afIeJL5RV2k3lhpDltjkCJVkraakoAhG988bq1vPuq9AaoPGRg=
+  - secure: V7upqBsI3phlsO9nLI7MMhwnf5LFl8RcRUyWJqDDb7O1vkckhYReTuf3ANz4KP1IU2IGHv9EvebZWP9Cy6pkn/ruWnWX0msZjTG9Hi7IbvR6DqNmqj7hKAsliROXjCQlEh4lDFr1cqEY/1bZSqDHJyr0rzetqbqQCW4eZu4+T0U=
 script:
 - make build
