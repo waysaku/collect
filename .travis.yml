@@ -1,0 +1,4 @@
+language: objective-c
+env:
+  global:
+    secure: c+26kMaU9GeSA1Jppwom8YdFrNSHTKmuoelIvOVzoSoneoOSBnWXYD192O1MtczhM+AAjsCo9FBflRnHANzLXpgqfwRYu2fVfuCL5CKmA2bA53dZIM6QJxx12afIeJL5RV2k3lhpDltjkCJVkraakoAhG988bq1vPuq9AaoPGRg=
