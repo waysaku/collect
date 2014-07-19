@@ -2,12 +2,13 @@
 //  HogeViewController.h
 //  collect
 //
-//  Created by 渡邉 雄作 on 6/19/14.
+//  Created by 渡邉 雄作 on 7/16/14.
 //  Copyright (c) 2014 渡邉 雄作. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface HogeViewController : UIView
+@interface HogeViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *mainLable;
 
 @end

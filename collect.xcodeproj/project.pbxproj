@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89147A321952E7E60079AF0E /* HogeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89147A311952E7E60079AF0E /* HogeViewController.m */; };
 		8965E9FC1952740D00E772EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FB1952740D00E772EC /* Foundation.framework */; };
 		8965E9FE1952740D00E772EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FD1952740D00E772EC /* CoreGraphics.framework */; };
 		8965EA001952740D00E772EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FF1952740D00E772EC /* UIKit.framework */; };
@@ -23,6 +22,7 @@
 		8965EA201952740D00E772EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FF1952740D00E772EC /* UIKit.framework */; };
 		8965EA281952740D00E772EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8965EA261952740D00E772EC /* InfoPlist.strings */; };
 		8965EA2A1952740E00E772EC /* collectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8965EA291952740D00E772EC /* collectTests.m */; };
+		89713EA119757C6500F560C9 /* HogeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89713EA019757C6500F560C9 /* HogeViewController.m */; };
 		D37C0E66DFFD4189808D7C05 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F44E7EF533D143058C9A42D5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +38,6 @@
 
 /* Begin PBXFileReference section */
 		813B1C3310A64722BB317958 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		89147A301952E7E60079AF0E /* HogeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HogeViewController.h; sourceTree = "<group>"; };
-		89147A311952E7E60079AF0E /* HogeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HogeViewController.m; sourceTree = "<group>"; };
 		8965E9F81952740D00E772EC /* collect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8965E9FB1952740D00E772EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8965E9FD1952740D00E772EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +58,8 @@
 		8965EA251952740D00E772EC /* collectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collectTests-Info.plist"; sourceTree = "<group>"; };
 		8965EA271952740D00E772EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8965EA291952740D00E772EC /* collectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectTests.m; sourceTree = "<group>"; };
+		89713E9F19757C6500F560C9 /* HogeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HogeViewController.h; sourceTree = "<group>"; };
+		89713EA019757C6500F560C9 /* HogeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HogeViewController.m; sourceTree = "<group>"; };
 		F44E7EF533D143058C9A42D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,8 +131,8 @@
 				8965EA141952740D00E772EC /* collectViewController.m */,
 				8965EA161952740D00E772EC /* Images.xcassets */,
 				8965EA021952740D00E772EC /* Supporting Files */,
-				89147A301952E7E60079AF0E /* HogeViewController.h */,
-				89147A311952E7E60079AF0E /* HogeViewController.m */,
+				89713E9F19757C6500F560C9 /* HogeViewController.h */,
+				89713EA019757C6500F560C9 /* HogeViewController.m */,
 			);
 			path = collect;
 			sourceTree = "<group>";
@@ -301,7 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8965EA081952740D00E772EC /* main.m in Sources */,
-				89147A321952E7E60079AF0E /* HogeViewController.m in Sources */,
+				89713EA119757C6500F560C9 /* HogeViewController.m in Sources */,
 				8965EA0C1952740D00E772EC /* collectAppDelegate.m in Sources */,
 				8965EA151952740D00E772EC /* collectViewController.m in Sources */,
 			);

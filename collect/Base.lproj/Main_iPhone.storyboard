@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -47,15 +47,15 @@
             </objects>
             <point key="canvasLocation" x="222" y="217"/>
         </scene>
-        <!--View Controller-->
+        <!--Hoge View Controller-->
         <scene sceneID="wAa-Ep-Pfg">
             <objects>
-                <viewController id="vK9-cv-W4Y" sceneMemberID="viewController">
+                <viewController id="vK9-cv-W4Y" customClass="HogeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8OG-47-Zv8"/>
                         <viewControllerLayoutGuide type="bottom" id="MKk-41-hUc"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="irD-Z2-CiZ" customClass="HogeViewController">
+                    <view key="view" contentMode="scaleToFill" id="irD-Z2-CiZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -85,6 +85,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="mainLable" destination="IMl-aQ-z7L" id="eeE-cz-jkb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b1d-Nb-11q" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="5zU-kj-uLU" userLabel="Exit" sceneMemberID="exit"/>
