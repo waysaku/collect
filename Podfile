@@ -1,2 +1,2 @@
 platform :ios, '7.0'
-pod 'TimesSquare', '~> 1.0.1'
+pod 'TimesSquare', :git => 'https://github.com/square/objc-TimesSquare.git'
