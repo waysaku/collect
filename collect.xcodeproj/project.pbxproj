@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8934DEE8197DF1830037F497 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934DEE7197DF1830037F497 /* CalendarViewController.m */; };
+		8934DEEA197DF6100037F497 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934DEE9197DF6100037F497 /* check.png */; };
+		8934DEEC197DF7850037F497 /* no_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934DEEB197DF7850037F497 /* no_check.png */; };
 		8965E9FC1952740D00E772EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FB1952740D00E772EC /* Foundation.framework */; };
 		8965E9FE1952740D00E772EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FD1952740D00E772EC /* CoreGraphics.framework */; };
 		8965EA001952740D00E772EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8965E9FF1952740D00E772EC /* UIKit.framework */; };
@@ -37,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		813B1C3310A64722BB317958 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8934DEE6197DF1830037F497 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		8934DEE7197DF1830037F497 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		8934DEE9197DF6100037F497 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		8934DEEB197DF7850037F497 /* no_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_check.png; sourceTree = "<group>"; };
 		8965E9F81952740D00E772EC /* collect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8965E9FB1952740D00E772EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8965E9FD1952740D00E772EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +127,8 @@
 		8965EA011952740D00E772EC /* collect */ = {
 			isa = PBXGroup;
 			children = (
+				8934DEEB197DF7850037F497 /* no_check.png */,
+				8934DEE9197DF6100037F497 /* check.png */,
 				8965EA0A1952740D00E772EC /* collectAppDelegate.h */,
 				8965EA0B1952740D00E772EC /* collectAppDelegate.m */,
 				8965EA0D1952740D00E772EC /* Main_iPhone.storyboard */,
@@ -128,6 +137,8 @@
 				8965EA141952740D00E772EC /* collectViewController.m */,
 				8965EA161952740D00E772EC /* Images.xcassets */,
 				8965EA021952740D00E772EC /* Supporting Files */,
+				8934DEE6197DF1830037F497 /* CalendarViewController.h */,
+				8934DEE7197DF1830037F497 /* CalendarViewController.m */,
 			);
 			path = collect;
 			sourceTree = "<group>";
@@ -243,7 +254,9 @@
 				8965EA121952740D00E772EC /* Main_iPad.storyboard in Resources */,
 				8965EA171952740D00E772EC /* Images.xcassets in Resources */,
 				8965EA0F1952740D00E772EC /* Main_iPhone.storyboard in Resources */,
+				8934DEEA197DF6100037F497 /* check.png in Resources */,
 				8965EA061952740D00E772EC /* InfoPlist.strings in Resources */,
+				8934DEEC197DF7850037F497 /* no_check.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8934DEE8197DF1830037F497 /* CalendarViewController.m in Sources */,
 				8965EA081952740D00E772EC /* main.m in Sources */,
 				8965EA0C1952740D00E772EC /* collectAppDelegate.m in Sources */,
 				8965EA151952740D00E772EC /* collectViewController.m in Sources */,

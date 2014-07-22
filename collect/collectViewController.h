@@ -9,5 +9,4 @@
 #import <UIKit/UIKit.h>
 
 @interface collectViewController : UIViewController
-@property (nonatomic, strong) NSCalendar *calendar;
 @end
