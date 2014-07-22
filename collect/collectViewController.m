@@ -31,4 +31,8 @@
 {
     
 }
+- (IBAction)onCheck:(id)sender {
+    NSDate *date = [NSDate date];
+    
+}
 @end

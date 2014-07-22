@@ -9,4 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface collectViewController : UIViewController
+- (IBAction)onCheck:(id)sender;
 @end
