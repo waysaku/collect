@@ -8,6 +8,7 @@
 
 #import "collectViewController.h"
 #import "TimesSquare.h"
+#import "CheckedDay.h"
 
 @interface collectViewController ()
 
@@ -32,7 +33,34 @@
     
 }
 - (IBAction)onCheck:(id)sender {
-    NSDate *date = [NSDate date];
+    //debug用データ投入
+//    NSDateComponents *dateComp = [[NSDateComponents alloc] init];
+//    for (int i = 0; i < 8; i++) {
+//        [dateComp setDay:i];
+//        NSDate *date = [[NSCalendar currentCalendar] dateByAddingComponents:dateComp toDate:[NSDate date] options:0];
+//        CheckedDay *cd = [CheckedDay MR_createEntity];
+//        cd.checkeddate = date;
+//        [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreAndWait];
+//    }
     
+    
+    
+    NSDate *today = [NSDate date];
+    
+    NSArray *checkedDays = [CheckedDay MR_findAll];
+    for (CheckedDay *d in checkedDays) {
+        NSDateFormatter *inputDateFormatter = [[NSDateFormatter alloc] init];
+        [inputDateFormatter setDateFormat:@"yyyyMMdd"];
+        
+        if([[inputDateFormatter stringFromDate:d.checkeddate] isEqualToString:[inputDateFormatter stringFromDate:today]]) {
+            NSLog(@"today's collect is already done");
+            return;
+        }
+    }
+    
+    CheckedDay *cd = [CheckedDay MR_createEntity];
+    cd.checkeddate = today;
+    
+    [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreAndWait];
 }
 @end
