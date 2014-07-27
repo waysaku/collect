@@ -9,6 +9,7 @@
 
 #import "TSQCalendarRowCell.h"
 #import "TSQCalendarView.h"
+#import "CheckedDay.h"
 
 
 @interface TSQCalendarRowCell ()
@@ -132,6 +133,9 @@
     self.selectedButton.hidden = YES;
     self.indexOfSelectedButton = -1;
     
+    NSDateFormatter *inputDateFormatter = [[NSDateFormatter alloc] init];
+    [inputDateFormatter setDateFormat:@"yyyyMMdd"];
+    
     for (NSUInteger index = 0; index < self.daysInWeek; index++) {
         NSString *title = [self.dayFormatter stringFromDate:date];
         NSString *accessibilityLabel = [self.accessibilityFormatter stringFromDate:date];
@@ -142,6 +146,12 @@
         [self.notThisMonthButtons[index] setAccessibilityLabel:accessibilityLabel];
         
         NSDateComponents *thisDateComponents = [self.calendar components:NSDayCalendarUnit|NSMonthCalendarUnit|NSYearCalendarUnit fromDate:date];
+        
+        NSArray *albums = [CheckedDay MR_findByAttribute:@"checkedstr" withValue:[inputDateFormatter stringFromDate:date]];
+        if([albums count] > 0) {
+            [self.todayButton         setBackgroundColor:[UIColor colorWithRed:0.094 green:0.710 blue:0.027 alpha:1.0]];
+            [self.dayButtons[index]          setBackgroundColor:[UIColor colorWithRed:0.094 green:0.710 blue:0.027 alpha:1.0]];
+        }
         
         [self.dayButtons[index] setHidden:YES];
         [self.notThisMonthButtons[index] setHidden:YES];

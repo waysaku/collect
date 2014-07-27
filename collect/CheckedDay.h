@@ -2,7 +2,7 @@
 //  CheckedDay.h
 //  collect
 //
-//  Created by 渡邉 雄作 on 2014/07/22.
+//  Created by 渡邉 雄作 on 2014/07/28.
 //  Copyright (c) 2014年 渡邉 雄作. All rights reserved.
 //
 
@@ -13,5 +13,6 @@
 @interface CheckedDay : NSManagedObject
 
 @property (nonatomic, retain) NSDate * checkeddate;
+@property (nonatomic, retain) NSString * checkedstr;
 
 @end

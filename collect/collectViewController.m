@@ -33,12 +33,16 @@
     
 }
 - (IBAction)onCheck:(id)sender {
+    NSDateFormatter *inputDateFormatter = [[NSDateFormatter alloc] init];
+    [inputDateFormatter setDateFormat:@"yyyyMMdd"];
+    
     //debug用データ投入
 //    NSDateComponents *dateComp = [[NSDateComponents alloc] init];
 //    for (int i = 0; i < 8; i++) {
 //        [dateComp setDay:i];
 //        NSDate *date = [[NSCalendar currentCalendar] dateByAddingComponents:dateComp toDate:[NSDate date] options:0];
 //        CheckedDay *cd = [CheckedDay MR_createEntity];
+//        cd.checkedstr = [inputDateFormatter stringFromDate:date];
 //        cd.checkeddate = date;
 //        [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreAndWait];
 //    }
@@ -46,12 +50,14 @@
     
     
     NSDate *today = [NSDate date];
-    
     NSArray *checkedDays = [CheckedDay MR_findAll];
+
+    
+    NSArray *albums = [CheckedDay MR_findByAttribute:@"checkedstr" withValue:[inputDateFormatter stringFromDate:today]];
+                       
+                       
     for (CheckedDay *d in checkedDays) {
-        NSDateFormatter *inputDateFormatter = [[NSDateFormatter alloc] init];
-        [inputDateFormatter setDateFormat:@"yyyyMMdd"];
-        
+        NSLog([inputDateFormatter stringFromDate:d.checkeddate]);
         if([[inputDateFormatter stringFromDate:d.checkeddate] isEqualToString:[inputDateFormatter stringFromDate:today]]) {
             NSLog(@"today's collect is already done");
             return;
@@ -59,6 +65,7 @@
     }
     
     CheckedDay *cd = [CheckedDay MR_createEntity];
+    cd.checkedstr = [inputDateFormatter stringFromDate:today];
     cd.checkeddate = today;
     
     [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreAndWait];
