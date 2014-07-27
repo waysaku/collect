@@ -97,6 +97,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8934DEFA1985438E0037F497 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8965EA161952740D00E772EC /* Images.xcassets */,
+				8934DEEB197DF7850037F497 /* no_check.png */,
+				8934DEE9197DF6100037F497 /* check.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8934DEFB198543A30037F497 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8934DEED197E09790037F497 /* Model.xcdatamodeld */,
+				8934DEF0197E0F3B0037F497 /* CheckedDay.h */,
+				8934DEF1197E0F3B0037F497 /* CheckedDay.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		8965E9EF1952740D00E772EC = {
 			isa = PBXGroup;
 			children = (
@@ -132,18 +152,14 @@
 		8965EA011952740D00E772EC /* collect */ = {
 			isa = PBXGroup;
 			children = (
-				8934DEEB197DF7850037F497 /* no_check.png */,
-				8934DEE9197DF6100037F497 /* check.png */,
+				8934DEFB198543A30037F497 /* Models */,
+				8934DEFA1985438E0037F497 /* Resources */,
 				8965EA0A1952740D00E772EC /* collectAppDelegate.h */,
 				8965EA0B1952740D00E772EC /* collectAppDelegate.m */,
 				8965EA0D1952740D00E772EC /* Main_iPhone.storyboard */,
 				8965EA101952740D00E772EC /* Main_iPad.storyboard */,
 				8965EA131952740D00E772EC /* collectViewController.h */,
 				8965EA141952740D00E772EC /* collectViewController.m */,
-				8934DEED197E09790037F497 /* Model.xcdatamodeld */,
-				8934DEF0197E0F3B0037F497 /* CheckedDay.h */,
-				8934DEF1197E0F3B0037F497 /* CheckedDay.m */,
-				8965EA161952740D00E772EC /* Images.xcassets */,
 				8965EA021952740D00E772EC /* Supporting Files */,
 				8934DEE6197DF1830037F497 /* CalendarViewController.h */,
 				8934DEE7197DF1830037F497 /* CalendarViewController.m */,
