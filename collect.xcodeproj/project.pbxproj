@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89306BE6198DF06700E95721 /* 3518042098_c08dddbf95_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89306BE5198DF06700E95721 /* 3518042098_c08dddbf95_z.jpg */; };
+		89306BF2198E385E00E95721 /* 3518042098_c08dddbf95_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89306BF1198E385E00E95721 /* 3518042098_c08dddbf95_b.jpg */; };
 		8934DEE8197DF1830037F497 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934DEE7197DF1830037F497 /* CalendarViewController.m */; };
 		8934DEEA197DF6100037F497 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934DEE9197DF6100037F497 /* check.png */; };
 		8934DEEC197DF7850037F497 /* no_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934DEEB197DF7850037F497 /* no_check.png */; };
@@ -47,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		813B1C3310A64722BB317958 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		89306BE5198DF06700E95721 /* 3518042098_c08dddbf95_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3518042098_c08dddbf95_z.jpg; sourceTree = "<group>"; };
+		89306BF1198E385E00E95721 /* 3518042098_c08dddbf95_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3518042098_c08dddbf95_b.jpg; sourceTree = "<group>"; };
 		8934DEE6197DF1830037F497 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		8934DEE7197DF1830037F497 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		8934DEE9197DF6100037F497 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		8934DEFA1985438E0037F497 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				89306BE5198DF06700E95721 /* 3518042098_c08dddbf95_z.jpg */,
+				89306BF1198E385E00E95721 /* 3518042098_c08dddbf95_b.jpg */,
 				8934DEE9197DF6100037F497 /* check.png */,
 				8965EA161952740D00E772EC /* Images.xcassets */,
 				8934DEEB197DF7850037F497 /* no_check.png */,
@@ -315,8 +315,8 @@
 				8965EA0F1952740D00E772EC /* Main_iPhone.storyboard in Resources */,
 				8934DEEA197DF6100037F497 /* check.png in Resources */,
 				8965EA061952740D00E772EC /* InfoPlist.strings in Resources */,
-				89306BE6198DF06700E95721 /* 3518042098_c08dddbf95_z.jpg in Resources */,
 				8934DEEC197DF7850037F497 /* no_check.png in Resources */,
+				89306BF2198E385E00E95721 /* 3518042098_c08dddbf95_b.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
