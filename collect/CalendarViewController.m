@@ -62,11 +62,13 @@
     
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)viewWillAppear:(BOOL)animated
 {
     NSDate *date = [NSDate date];
-    [(TSQCalendarView *)self.view scrollToDate:date animated:false];
+    [(TSQCalendarView *)self.view scrollToDate:date animated:false]; 
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
