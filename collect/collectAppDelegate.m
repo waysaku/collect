@@ -14,6 +14,7 @@
 {
     // Override point for customization after application launch.
     [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"checked_db.sqlite"];
+    sleep(2);
     return YES;
 }
 							
